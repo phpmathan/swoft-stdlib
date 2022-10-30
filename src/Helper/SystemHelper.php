@@ -230,8 +230,6 @@ class SystemHelper extends EnvHelper
      * list($width, $height) = Sys::getScreenSize();
      * ```
      *
-     * @from Yii2
-     *
      * @param boolean $refresh whether to force checking and not re-use cached size value.
      *                         This is useful to detect changing window size while the application is running but may
      *                         not get up to date values on every terminal.
